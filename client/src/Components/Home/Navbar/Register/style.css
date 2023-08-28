@@ -1,0 +1,231 @@
+.overlay-register-pop {
+    position: absolute;
+    width: 61.8rem;
+    height: 41.2rem;
+    border-radius: 2rem;
+    background: #FFF;
+    box-shadow: 0px .4rem .3rem 0px rgba(255, 255, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 999;
+}
+
+td {
+    padding: 1.5rem;
+}
+
+.close-icon {
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+
+.heading-register {
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.username-heading,
+.password-heading {
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.user {
+    width: 24.5rem;
+    height: 3.5rem;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+
+.wrapper-password {
+    display: flex;
+    width: 24.5rem;
+    height: 3.5rem;
+    border: 0.1rem solid black;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.password {
+    outline: 0;
+    border: none;
+    width: 100%;
+}
+
+.user,
+.password {
+    color: #8E8E8E;
+    font-family: DM Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.eye-img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.register-btn {
+    width: 12.9rem;
+    height: 4.5rem;
+    border-radius: 2rem;
+    background: #73ABFF;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper-login-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 500px) and (min-width: 200px){
+    .overlay-register-pop {
+        position: absolute;
+        width: 25.7rem;
+        height: 48.2rem;
+        border-radius: 2rem;
+        background: #FFF;
+        box-shadow: 0px .4rem .3rem 0px rgba(255, 255, 255, 0.25);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        z-index: 999;
+        gap: 1rem;
+    }
+    td {
+        padding: 0.5rem;
+    }
+    
+    .close-icon {
+        cursor: pointer;
+        width: 2.6rem;
+        height: 2.6rem;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+    
+    .heading-register {
+        color: #000;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .username-heading,
+    .password-heading {
+        color: #000;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .user {
+        width: 14.2rem;
+        height: 3.5rem;
+        outline: 0;
+        box-sizing: border-box;
+        padding: 1rem;
+        border: 0.1rem solid black;
+    }
+    
+    .wrapper-password {
+        display: flex;
+        width: 14.2rem;
+        height: 3.5rem;
+        border: 0.1rem solid black;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    
+    .password {
+        outline: 0;
+        border: none;
+        width: 100%;
+    }
+    
+    .user,
+    .password {
+        color: #8E8E8E;
+        font-family: DM Sans;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .eye-img {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    
+    .register-btn {
+        width: 12.9rem;
+        height: 4.5rem;
+        border-radius: 2rem;
+        background: #73ABFF;
+        color: #000;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .wrapper-login-btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

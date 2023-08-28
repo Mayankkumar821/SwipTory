@@ -1,0 +1,297 @@
+.prev-story-popup {
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.90);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0rem;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow-y: hidden;
+}
+
+.slider {
+    display: flex;
+    background-color: white;
+    width: 33.9rem;
+    height: 62rem;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+}
+
+.slider-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.prev-btn,
+.next-btn {
+    cursor: pointer;
+}
+
+.bar {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cross-send-btn {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.cross-prev {
+    cursor: pointer;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.send-prev {
+    cursor: pointer;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.image-and-heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.prev-food-story-img {
+    width: 100%;
+    height: 80%;
+}
+
+.prev-wrapper-a-story {
+    width: 100%;
+    background: linear-gradient(180deg, #000 58.26%, rgba(0, 0, 0, 0.00) 100%);
+    position: absolute;
+    top: 52rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+
+.prev-story-heading {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.prev-story-desc {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.prev-likes-bookmark {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+}
+
+.like-prev {
+    cursor: pointer;
+    width: 2.8rem;
+    height: 2.6rem;
+}
+
+.book-prev {
+    cursor: pointer;
+    width: 2.8rem;
+    height: 3rem;
+}
+
+.like-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.upvote-count {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 500px) and (min-width: 200px){
+    .prev-story-popup {
+        position: fixed;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.90);
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0rem;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        overflow-y: hidden;
+    }
+    
+    .slider {
+        display: flex;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        flex-direction: column;
+        background-color: black;
+        position: relative;
+    }
+    
+    .slider-items {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .prev-btn,
+    .next-btn {
+        cursor: pointer;
+        display: none;
+    }
+    
+    .bar {
+        background-color: grey;
+        cursor: pointer;
+    }
+    
+    .indicators {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .cross-send-btn {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .cross-prev {
+        cursor: pointer;
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    
+    .send-prev {
+        cursor: pointer;
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    
+    .image-and-heading {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .prev-food-story-img {
+        width: 100%;
+        height: 80%;
+    }
+    
+    .prev-wrapper-a-story {
+        width: 100%;
+        background: linear-gradient(180deg, #000 58.26%, rgba(0, 0, 0, 0.00) 100%);
+        position: absolute;
+        top: 52rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 1.5rem;
+    }
+    
+    .prev-story-heading {
+        margin-top: 0;
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .prev-story-desc {
+        margin-top: 0;
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    
+    
+    .prev-likes-bookmark {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .like-prev {
+        cursor: pointer;
+        width: 2.8rem;
+        height: 2.6rem;
+    }
+    
+    .book-prev {
+        cursor: pointer;
+        width: 2.8rem;
+        height: 3rem;
+    }
+    
+    .like-count {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .upvote-count {
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

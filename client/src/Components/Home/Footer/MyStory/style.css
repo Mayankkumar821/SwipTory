@@ -1,0 +1,255 @@
+.s-footer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2.5rem;
+    gap: 2rem;
+}
+
+.s-heading {
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stories-s {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.a-s-story {
+    width: 30.2rem;
+    height: 48.6rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.s-story-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.wrapper-a-story {
+    position: absolute;
+    top: 43.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 0 0 2rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+
+.story-heading {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.story-desc {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrapper-see-more-btn {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.see-more {
+    cursor: pointer;
+    width: 13.6rem;
+    height: 4.5rem;
+    border-radius: 2rem;
+    background: #FF7373;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.s-edit-btn {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.9rem;
+    height: 3.4rem;
+    border-radius: 2rem;
+    background: white;
+    display: flex;
+    gap: 1rem;
+    top: 48rem;
+    left: 10.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px .7rem 2.9rem 0px;
+}
+
+.edit-img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.edit-btn {
+    color: #474141;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 500px) and (min-width: 200px){
+    .s-footer {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 2.5rem;
+        gap: 2rem;
+    }
+    
+    .s-heading {
+        color: #000;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .stories-s {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 4rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .a-s-story {
+        width: 40.2rem;
+        height: 48.6rem;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .s-story-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+    
+    .wrapper-a-story {
+        position: absolute;
+        top: 43.5rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        border-radius: 0 0 2rem 2rem;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1.5rem;
+    }
+    
+    .story-heading {
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .story-desc {
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .wrapper-see-more-btn {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .see-more {
+        cursor: pointer;
+        width: 13.6rem;
+        height: 4.5rem;
+        border-radius: 2rem;
+        background: #FF7373;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    .s-edit-btn {
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10.9rem;
+        height: 4.6rem;
+        border-radius: 2rem;
+        background: white;
+        display: flex;
+        gap: 1rem;
+        top: 46.5rem;
+        left: 13rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px .7rem 2.9rem 0px;
+    }
+    
+    .edit-img {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    
+    .edit-btn {
+        color: #474141;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
